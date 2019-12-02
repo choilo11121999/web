@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="../css/chitietcv.css" type="text/css">
     </head>
-    <html>
+    <body>
         <!-- header -->
        <div class="header">
             <div class="container-fluid">
@@ -27,17 +27,17 @@
                         </a>
                     </div>
                     <div class="col-sm-0" id="quantam">
-                        <a href="quantam.html">Việc quan tâm</a>
+                        <a href="quantam.html">Quan tâm</a>
                     </div>
-                    <div class="col">rỗng</div>
+                    <div class="col"></div>
                     <div class="col-sm-0" id="logo">
                         <a href="trangchu.php" style="color: #333; text-decoration: none;">
                             <i class="fab fa-wordpress-simple"></i>
                             Tìm Việc Làm
                         </a>
                     </div>
-                    <div class="col" id="rong">rỗng</div>
-                    <div class="col" id="rong">rỗng</div>
+                    <div class="col" id="rong"></div>
+                    <div class="col" id="rong"></div>
                     <div class="col-sm-0" id="dangnhap">
                         <a href="dangnhap.html" id="sub_icon"><i class="far fa-user"></i>
                             <ul>
@@ -52,7 +52,63 @@
        <!-- banner -->
        <div class="banner">
             <div id="timkiem">
-                <a href="timkiem.php" name="timKiem" id="btsearch" style = "text-decoration: none;">Tìm Kiếm</a>
+                <input type="text" name = "tenCv" placeholder="Nhập tên công việc..." id="txtsearch">
+                <select name="nganhTuyen" id="">
+                <option value="">Chọn ngành nghề</option>
+                <option value="Kinh doanh">Kinh doanh</option>
+                        <option value="Chăm sóc khách hàng">Chăm sóc khách hàng</option>
+                        <option value="Sinh viên/Mới tốt nghiệp/Thực tập">Sinh viên/Mới tốt nghiệp/Thực tập</option>
+                        <option value="Lao động phổ thông">Lao động phổ thông</option>
+                        <option value="Hành chính/Thư ký/Trợ lý">Hành chính/Thư ký/Trợ lý</option>
+                        <option value="Tài chính/Kế toán/Kiểm toán">Tài chính/Kế toán/Kiểm toán</option>
+                        <option value="Quảng cáo/Marketing/PR">Quảng cáo/Marketing/PR</option>
+                        <option value="Bất động sản">Bất động sản</option>
+                        <option value="Du lịch/Nhà hàng/Khách sạn">Du lịch/Nhà hàng/Khách sạn</option>
+                        <option value="Cơ khí/Kĩ thuật ứng dụng">Cơ khí/Kĩ thuật ứng dụng</option>
+                        <option value="Công nghệ thông tin">Công nghệ thông tin</option>
+                        <option value="Điện/Điện tử/Điện lạnh">Điện/Điện tử/Điện lạnh</option>
+                        <option value="Nhân sự">Nhân sự</option>
+                        <option value="Xây dựng">Xây dựng</option>
+                        <option value="Bảo vệ/Vệ sĩ/An ninh">Bảo vệ/Vệ sĩ/An ninh</option>
+                        <option value="Ngân hàng/Chứng khoán/Đầu tư">Ngân hàng/Chứng khoán/Đầu tư</option>
+                        <option value="Kho vận/Vật tư/Thu mua">Kho vận/Vật tư/Thu mua</option>
+                        <option value="Thời vụ/Bán thời gian">Thời vụ/Bán thời gian</option>
+                        <option value="Dược/Hóa chất/Sinh hóa">Dược/Hóa chất/Sinh hóa</option>
+                </select>
+                <select name="khuVuc">
+                    <option>Chọn nơi làm việc</option>
+                    <option value="Hà Nội">Hà Nội</option>
+                        <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                        <option value="Đà Nẵng">Đà Nẵng</option>
+                        <option value="Bắc Ninh">Bắc Ninh</option>
+                        <option value="Hà Nam">Hà Nam</option>
+                        <option value="Hải Dương">Hải Dương</option>
+                        <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                        <option value="Hòa Bình">Hòa Bình</option>
+                        <option value="Lai Châu">Lai Châu</option>
+                        <option value="Nam Định">Nam Định</option>
+                        <option value="Ninh Bình">Ninh Bình</option>
+                        <option value="Hải Phòng">Hải Phòng</option>
+                        <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                        <option value="Thanh Hóa">Thanh Hóa</option>
+                        <option value="Nghệ An">Nghệ An</option>
+                        <option value="Hà Tĩnh">Hà Tĩnh</option>
+                        <option value="Quảng Nam">Quảng Nam</option>
+                        <option value="Bình Định">Bình Định</option>
+                        <option value="Khánh Hòa">Khánh Hòa</option>
+                        <option value="Quảng Bình">Quảng Bình</option>
+                        <option value="Quảng Trị">Quảng Trị</option>
+                        <option value="Bà Rịa Vũng Tàu">Bà Rịa Vũng Tàu</option>
+                        <option value="Bình Dương">Bình Dương</option>
+                        <option value="Bình Phước">Bình Phước</option>
+                        <option value="Đồng Nai">Đồng Nai</option>
+                        <option value="Tây Ninh">Tây Ninh</option>
+                        <option value="Cà Mau">Cà Mau</option>
+                        <option value="Đồng Tháp">Đồng Tháp</option>
+                        <option value="Long An">Long An</option>
+                        <option value="Sóc Trăng">Sóc Trăng</option>
+                </select>
+                <input type="submit" name="timKiem" value="Tìm kiếm" id="btsearch">
             </div>
        </div>
 
@@ -107,7 +163,7 @@
 
        <!-- footer -->
        <div class="footer">
-            <div class="container">
+            <div class="container-fluid">
                 <h2>Liên hệ</h2>
                 <div class="row">
                     <div class="col">
@@ -138,5 +194,5 @@
                 </div>
             </div>
         </div>
-    </html>
+    </body>
 </html>

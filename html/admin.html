@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bài đã đăng</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/fontawesome-free-5.11.2-web/css/all.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/admin.css" type="text/css">
+    </head>
+    <body>
+        <!-- header -->
+        <div id="header">
+            <a href="dangnhap.html" id="sub_icon"><i class="far fa-user"></i>
+                <ul>
+                    <li>Đăng xuất</li>
+                </ul>
+            </a>
+        </div>
+
+        <!-- menu -->
+
+        <div>
+            <h2>Menu</h2>
+            <button id="btnguoidung">Người dùng</button>
+            <button id="btbaidang">Bài đăng</button>
+        </div>
+
+        <!-- nội dung -->
+        <div class="container nguoidung" id="nguoidung">
+            <div class="row">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Tên người dùng</th>
+                            <th>xóa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Lo van choi
+                            </td>
+                            <td>
+                                <a href="">Xóa</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="container baidang" id="baidang">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th id="cv">Tên công việc</th>
+                        <th>Mức lương</th>
+                        <th>Khu vực</th>
+                        <th>Hạn nộp</th>
+                        <th id="quantam">Xóa bài</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="chitietcv.html" id="vitrituyen">Vị trí tuyển dụng</a>
+                            <p>tên công ty</p>
+                        </td>
+                        <td>
+                            <span><i class="fas fa-dollar-sign"></i>  12-20tr</span>
+                        </td>
+                        <td>
+                            <span><i class="fas fa-map-marker-alt"></i>  Hà Nội</span>
+                        </td>
+                        <td><i class="far fa-clock"></i>  20/12/2019</td>
+                        <td>
+                            <a href="">Xóa</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="../js/admin.js"></script>
+    </body>
+</html>

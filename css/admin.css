@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background: gainsboro;
+}
+
+/* header */
+
+#header {
+    float: right;
+}
+
+/* nội dung */
+
+/* .nguoidung, .baidang {
+    display: none;
+} */
