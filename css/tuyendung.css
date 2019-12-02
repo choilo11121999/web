@@ -51,7 +51,7 @@ body {
 /*==Nội dung==*/
 .noidung {
     padding: 5px;
-    height: 1000px;
+    height: 1250px;
     background-color: white;
     margin-top: 20px;
 }
@@ -65,9 +65,17 @@ body {
     width: 700px;
     margin-left: 20px;
     border-radius: 3px;
+    padding: 5px;
 }
-.noidung input:hover, .noidung select:hover {
+.noidung input:hover, .noidung select:hover, .noidung textarea:hover {
     border: 1px solid green;
+}
+.noidung textarea {
+    width: 700px;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 3px;
+    padding: 5px;
 }
 #submit input{
     background-color: green;

@@ -91,7 +91,11 @@ body {
 .container {
     padding: 5px;
     height: 1000px;
+    
     background-color: white;
+}
+.container h2 {
+    text-align: centers;
 }
 #cv {
     width: 500px;
@@ -104,8 +108,11 @@ body {
     width: 100px;
 }
 #iconqt {
-    font-size: 30px;
     text-align: center;
+}
+#iconqt a{
+    font-size: 30px;
+    color: red;
 }
 
 /*==footer==*/
